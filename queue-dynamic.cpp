@@ -11,7 +11,7 @@ private:
 	Element * first;
 	Element * last;
 public:
-	Queue(): first(0), last(0) {		
+	Queue(): first(0), last(0) {
 	}
 
 	Queue(const Queue & q): first(0), last(0) {

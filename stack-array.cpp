@@ -7,7 +7,7 @@ private:
 	double * data;
 
 public:
-	Stack(int size) : 
+	Stack(int size) :
 	  count(0), size(size), data(new double[size]) {}
 	  ~Stack() {
 		  delete [] data;
@@ -23,7 +23,7 @@ public:
 
 			  data = newdata;
 			  size = size * 2;
-		  }			  
+		  }
 
 		data[count] = v;
 		count ++;

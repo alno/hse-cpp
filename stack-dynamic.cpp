@@ -36,7 +36,7 @@ public:
 
 		delete top;
 
-		top = next;		
+		top = next;
 		return value;
 	}
 
